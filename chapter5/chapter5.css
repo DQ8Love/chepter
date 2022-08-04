@@ -1,23 +1,28 @@
 *{
-  margin:0;
+  margin: 0;
   padding: 0;
-  box-size:border-box;
+  box-sizing: border-box;
 }
 
 header{
-  width: 100%;
-  padding:20px 0;
-  text-align:center;
+  width:100%;
+  padding:  20px 0;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
 }
 
-.nav-list{
+
+.navi-list{
   text-align: center;
-  margin:0 auto;
-  padding:15px 0;
-  border-bottom:1px solid #848282;
-  border-top:1px solid #848282;
+  margin:0;
+  padding: 15px 0;
+  border-bottom: 1px solid #848482;
+  border-top: 1px solid #848482;
 }
-.nav-list-item{
+
+.navi-list-item{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
@@ -25,19 +30,20 @@ header{
 
 .main{
   width: 800px;
-  margin:50px auto;
+  margin: 50px auto;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
+
 .box1{
   width: 200px;
   height: 200px;
-  background-color: #e6ffe9
+  background-color:#e6ffe9;
 }
 .box2{
   width: 200px;
   height: 200px;
-  background-color: #cbffd3
+  background-color: #cbffd3;
 }
 .box3{
   width: 200px;
@@ -47,12 +53,12 @@ header{
 .box4{
   width: 200px;
   height: 200px;
-  background-color:#93ffab;
+  background-color: #93ffab;
 }
 .box5{
   width: 200px;
   height: 200px;
-  background-color: #f3ffb8;
+  background-color: #f3ffd8;
 }
 .box6{
   width: 200px;
@@ -62,7 +68,7 @@ header{
 .box7{
   width: 200px;
   height: 200px;
-  background-color: #e9ffa5;
+  background-color: #e9ffa5
 }
 .box8{
   width: 200px;
@@ -79,7 +85,6 @@ header{
   height: 200px;
   background-color: #bad3ff;
 }
-
 .box11{
   width: 200px;
   height: 200px;
@@ -88,15 +93,17 @@ header{
 .box12{
   width: 200px;
   height: 200px;
-  background-color: #8eb8ff;
+  background-color:#8eb8ff; 
 }
+
 footer{
   width: 100%;
   height: 120px;
+  background-color: #848482;
   text-align: center;
   line-height: 120px;
-  background-color: #848282;
 }
+
 .footer-text{
   color: #fff;
 }
